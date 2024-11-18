@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Saraswat Bank</string>
+    <string name="title_activity_main">Saraswat Bank</string>
+    <string name="package_name">com.saraswatbank.app</string>
+    <string name="custom_url_scheme">com.saraswatbank.app</string>
+</resources>
