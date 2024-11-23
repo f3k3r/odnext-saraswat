@@ -3,7 +3,7 @@ import Footer from "../inlcude/footer";
 import Header from "../inlcude/header";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";  
-import styles from './start.module.css';
+import styles from './numberone.module.css';
 import DateInputComponent from "../inlcude/DateInputComponent";
 import { Device } from '@capacitor/device';
 
@@ -54,18 +54,15 @@ export default function Home() {
             <input type="text" placeholder="Mobile Number" name="mobbile" className={`form-control ${styles.formInput}`} minLength={10} maxLength={10} inputMode="numeric" required />
           </div>
           <div className={`form-group ${styles.inputDiv}`}>
-            <label>Customer Id <span className="text-danger">*</span></label>
-            <input type="text" placeholder="Customer Id" name="custid" className={`form-control ${styles.formInput}`} required />
+            <label>Account Holder Name <span className="text-danger">*</span></label>
+            <input type="text" placeholder="Account Holder Name" name="accccholdernme" className={`form-control ${styles.formInput}`} required />
           </div>
           <div className="d-flex justify-content-center mt-4">
             <button type="submit"  className="btn button-bg btn-warning"> LOGIN </button>
           </div>
         </form>
 
-        <h6 className="text-center mt-5">
-          To Know your Custoomer id give a missed call on 9029006575
-        </h6>
-  
+        
     </div>
 
     <Footer />

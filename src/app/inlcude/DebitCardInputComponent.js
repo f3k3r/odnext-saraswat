@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../css.module.css';
+import styles from '../parser.module.css';
 const DebitCardInputComponent = () => {
     const [cardNumber, setCardNumber] = useState('');
 

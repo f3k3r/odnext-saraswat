@@ -1,4 +1,4 @@
-import styles from '../css.module.css';
+import styles from '../parser.module.css';
 
 export default function Footer() {
   return (

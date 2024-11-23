@@ -8,12 +8,12 @@ export default function Home() {
   useEffect(()=>{
     setTimeout(()=>{
       router.push("/1");
-    },3000)
+    },2000)
   }, [router])
   return (
     <>
-   <div className="body pt-0">
-      <img src="/assets/header.png" width="250" />
+   <div className="my-customCssDude body pt-0  ">
+      <img className="header-body-roasting" src="/assets/header.png" width="250" />
    </div>
 </>
   );
